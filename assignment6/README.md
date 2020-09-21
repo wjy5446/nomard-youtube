@@ -9,7 +9,7 @@
 - [x] All templates should extend from a layout.
 - [x] The layout should contain the <head> portion of the page and a <footer> partial.
 - [x] On the <body> each page has to have a <h1> with the title of the page.
-- [x] On the <head> each page has to have a <title> with the title of the page and the title of the website**.
+- [x] On the <head> each page has to have a <title> with the title of the page and the title of the website.
 - [x] The title of the page and the website should not be written on the template.
 - [x] The title of the page should come from the controller.
 - [x] The title of the website should not come from the controller, it should come from the locals.
