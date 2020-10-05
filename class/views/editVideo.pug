@@ -1,9 +1,9 @@
 extends layouts/main
 
 block content
-    .form-container
-        form(action=`videos${routes.upload}`, method="post")
-            input(type="text", placeholder="Title", name="title", require=true)
-            textarea(placeholder="Description", name="description", require=true)
-            input(type="submit", value="Upload Video", require=true)
-        a.form-container__link.form-container__lint--delete(href=`/videos${routes.deleteVideo}`) Delete Video
+  .form-container
+    form(action=`videos${routes.upload}`, method="post")
+      input(type="text", placeholder="Title", name="title", require=true)
+      textarea(placeholder="Description", name="description", require=true)
+      input(type="submit", value="Upload Video", require=true)
+    a.form-container__link.form-container__lint--delete(href=`/videos${routes.deleteVideo}`) Delete Video
